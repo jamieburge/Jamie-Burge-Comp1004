@@ -1,0 +1,20 @@
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.exe
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.deps.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.runtimeconfig.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.runtimeconfig.dev.json
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.dll
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\bin\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.pdb
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.csprojAssemblyReference.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.AssemblyInfoInputs.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.AssemblyInfo.cs
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.csproj.CoreCompileInputs.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.RazorTargetAssemblyInfo.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\staticwebassets\Comp1004 Mount Edgecumbe.StaticWebAssets.Manifest.cache
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\staticwebassets\Comp1004 Mount Edgecumbe.StaticWebAssets.xml
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.dll
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.pdb
+C:\Users\jamie\source\repos\Comp1004 Mount Edgecumbe\Comp1004 Mount Edgecumbe\obj\Debug\netcoreapp3.1\Comp1004 Mount Edgecumbe.genruntimeconfig.cache
