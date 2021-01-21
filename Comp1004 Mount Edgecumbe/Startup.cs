@@ -31,7 +31,7 @@ namespace Comp1004_Mount_Edgecumbe
            
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            //  app.UseEndpoints(endpoints =>
+            //  app.UseEndpoints(endpoints =>ww
             // {
             //     endpoints.MapGet("/", async context =>
             //     {
