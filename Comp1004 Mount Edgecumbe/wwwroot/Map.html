@@ -20,10 +20,30 @@
     
     <!-- Page Content -->
     <div id="page-content-wrapper" class="col-12 pl-0">
-        <p>
-        Map testing 
-        </p>
-       
+        <div class="container-fluid row">
+            <div class="card mt-3 col-md-4">
+                <h2>My Favourite Place</h2>
+                <p>This is one of my favourite places</p>
+            </div>
+            <div class="card mt-3 col-md-6">
+                <div id="mapid" style="width: 600px; height: 400px;"></div>
+                <script>
+                    var mymap = L.map('mapid').setView([50.375406, -4.138342], 13);
+
+                    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={pk.eyJ1IjoiamFtaWVidXJnZSIsImEiOiJja2s5czU0cmMwNjlrMndueGhscTdjd3p3In0.yIR8sLbET2Ep_Gw_ogieag}'
+                        , {
+                            attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright" > OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+                        tileSize: 512,
+                        maxZoom: 18,
+                        zoomOffset: -1,
+                        id: 'mapbox/streets-v11',
+                 }).addTo(mymap);
+
+                </script>
+            </div>
+        </div>
+
+
     </div>
     <style>
         .footer {
