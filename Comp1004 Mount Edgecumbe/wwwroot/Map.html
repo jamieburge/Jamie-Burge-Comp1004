@@ -1,79 +1,53 @@
-﻿<!doctype html>
-<html lang="en">
-
+﻿
+<!DOCTYPE html>
+<html>
 <head>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-            crossorigin="anonymous"></script>
-    <script src="js/spa.js"></script>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <title>Mount Edgecumbe - Jamie Burge</title>
-</head>
-
-<body>
-    
-    <!-- Page Content -->
-    <div id="page-content-wrapper" class="col-12 pl-0">
-        <div class="container-fluid row">
-            <div class="card mt-3 col-md-4">
-                <h2>My Favourite Place</h2>
-                <p>This is one of my favourite places</p>
-            </div>
-            <div class="card mt-3 col-md-6">
-                <div id="mapid" style="width: 600px; height: 400px;"></div>
-                <script>
-                    var mymap = L.map('mapid').setView([50.375406, -4.138342], 13);
-
-                    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={pk.eyJ1IjoiamFtaWVidXJnZSIsImEiOiJja2s5czU0cmMwNjlrMndueGhscTdjd3p3In0.yIR8sLbET2Ep_Gw_ogieag}'
-                        , {
-                            attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright" > OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
-                        tileSize: 512,
-                        maxZoom: 18,
-                        zoomOffset: -1,
-                        id: 'mapbox/streets-v11',
-                 }).addTo(mymap);
-
-                </script>
-            </div>
-        </div>
-
-
-    </div>
+    <meta charset=utf-8 />
+    <title>A simple map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
     <style>
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            /* Set the fixed height of the footer here */
-            height: 60px;
-            line-height: 60px; /* Vertically center the text there */
-            background-color: #f5f5f5;
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #c3facf;
         }
+       
+
+      
     </style>
-    <footer class="footer">
-        <div class="container">
-            <span class="text-muted">
-                Copyright University of Plymouth - for teaching purposes
-                only
-            </span>
-        </div>
-    </footer>
+</head>
+<body>
+    <div id="page-content-wrapper" class="col-12 pl-0">
+        <div id='map'></div>
+        <script>
+            L.mapbox.accessToken = 'pk.eyJ1IjoiamFtaWVidXJnZSIsImEiOiJja2s5czU0cmMwNjlrMndueGhscTdjd3p3In0.yIR8sLbET2Ep_Gw_ogieag';
+            var map = L.mapbox.map('map')
+                .setView([50.353999, -4.176425], 14)
+                .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+            var marker = L.marker([50.358684, -4.173992], { title: "Italian Garden"}).addTo(map);
+            var marker = L.marker([50.358363, -4.173218], { title: "Golden Jubilee Garden" }).addTo(map);
+            var marker = L.marker([50.358391, -4.172210], { title: "Black Bee Apiary" }).addTo(map);
+            var marker = L.marker([50.358162, -4.172821], { title: "French Garden" }).addTo(map);
+            var marker = L.marker([50.358066, -4.173126], { title: "Relic Garden" }).addTo(map);
+            var marker = L.marker([50.353238, -4.170845], { title: "New Trees" }).addTo(map);
+            var marker = L.marker([50.351047, -4.173154], { title: "Camellias" }).addTo(map);
+            var marker = L.marker([50.348823, -4.168280], { title: "Diamond Jubilee Copse" }).addTo(map);
+            var marker = L.marker([50.344157, -4.177934], { title: "Friends Glade" }).addTo(map);
+            var marker = L.marker([50.354053, -4.177434], { title: "Barrow Centre" }).addTo(map);
+            var marker = L.marker([50.354093, -4.177251], { title: "Batcam" }).addTo(map);
+            var marker = L.marker([50.354155, -4.177026], { title: "Fire Auxiliary" }).addTo(map);
+            var marker = L.marker([50.354281, -4.176487], { title: "Deer Garden" }).addTo(map);
+            var marker = L.marker([50.354414, -4.176246], { title: "Knot Garden" }).addTo(map);
+            var marker = L.marker([50.353809, -4.175233], { title: "Cedar Seat" }).addTo(map);
+            var marker = L.marker([50.353747, -4.175598], { title: "Shell Seat" }).addTo(map);
+            var marker = L.marker([50.359239, -4.174289], { title: "Lambert Lodge" }).addTo(map);
+            var marker = L.marker([50.359487, -4.175689], { title: "Childrens Play Area" }).addTo(map);
 
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
+        </script>
+        <div id=MapText> <p>1 Italian Gardens | 2 Golden Jubilee Garden | 3 Black Bee Apiary | 4 French Garden | 5 Relic Garden | 6 New Trees | 7 Camellias | 8 Diamond Jubilee Copse | 9 Friends Glade | 10 Barrow Centre | 11 Batcam | 12 Fire Auxiliary | 13 Deer Garden | 14 Knot Garden | 15 Cedar Seat | 16 Shell Seat | 17 Lambert Lodge | 18 Childrens Play area</p></div>
+        
+    </div>
 </body>
 </html>
